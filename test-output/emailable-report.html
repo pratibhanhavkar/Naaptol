@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">702,839</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.ShoppingCategoriesTest</td><td><a href="#m0">VerifyOnClickingShoppingCategories</a></td><td rowspan="1">1733748491616</td><td rowspan="1">10463</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.AddProductToCart</td><td><a href="#m1">VerifyRemoveAproductFromCartList</a></td><td rowspan="1">1733748580312</td><td rowspan="1">39683</td></tr><tr class="passedeven"><td><a href="#m2">verifyAddingMultipleProductToCart</a></td><td rowspan="1">1733748687769</td><td rowspan="1">36767</td></tr><tr class="passedeven"><td><a href="#m3">verifyAddproductToCartUsingProductDetailPage</a></td><td rowspan="1">1733748899103</td><td rowspan="1">49357</td></tr><tr class="passedodd"><td rowspan="2">test.ProductDetailViewTest</td><td><a href="#m4">VerifyAddProductToCartUsingProductDetailPage</a></td><td rowspan="1">1733748358188</td><td rowspan="1">92328</td></tr><tr class="passedodd"><td><a href="#m5">VerifyIfProdutDetailsAreCorrectIfViewInQuickView</a></td><td rowspan="1">1733748450521</td><td rowspan="1">5582</td></tr><tr class="passedeven"><td rowspan="2">test.ProductSearchTest</td><td><a href="#m6">VerifyIfUserIsAbleToSearchInalidProduct</a></td><td rowspan="1">1733748293213</td><td rowspan="1">17097</td></tr><tr class="passedeven"><td><a href="#m7">VerifyIfUserIsAbleToSearchValidProduct</a></td><td rowspan="1">1733748348407</td><td rowspan="1">9741</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.ShoppingCategoriesTest#VerifyOnClickingShoppingCategories</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a94eb30a5c701f0f61c5273a56be76b, clickElement {id=f.72426E1E05ADEBC2FA6097F704AF5AD2.d.5F8A5F97CCF2EB7C5BB772848D6ED99A.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64059/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a94eb30a5c701f0f61c5273a56be76b)] -&gt; xpath: (//a[text()=&apos;Smartphones&apos;])[1]]
+Session ID: 6a94eb30a5c701f0f61c5273a56be76b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pom.ShoppingCategoiesPage.clickOnSmartPhone(ShoppingCategoiesPage.java:38)
+	at test.ShoppingCategoriesTest.VerifyOnClickingShoppingCategories(ShoppingCategoriesTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.AddProductToCart#VerifyRemoveAproductFromCartList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.AddProductToCart#verifyAddingMultipleProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.AddProductToCart#verifyAddproductToCartUsingProductDetailPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.ProductDetailViewTest#VerifyAddProductToCartUsingProductDetailPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.ProductDetailViewTest#VerifyIfProdutDetailsAreCorrectIfViewInQuickView</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.ProductSearchTest#VerifyIfUserIsAbleToSearchInalidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.ProductSearchTest#VerifyIfUserIsAbleToSearchValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

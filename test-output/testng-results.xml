@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T18:14:05 IST" name="Suite" finished-at="2024-12-09T18:25:48 IST" duration-ms="702839">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T18:14:05 IST" name="Test" finished-at="2024-12-09T18:25:48 IST" duration-ms="702839">
+      <class name="test.ShoppingCategoriesTest">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.ShoppingCategoriesTest@2362f559]" started-at="2024-12-09T18:14:28 IST" name="configureReports" finished-at="2024-12-09T18:14:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.ShoppingCategoriesTest@2362f559]" started-at="2024-12-09T18:17:36 IST" name="lunchApplication" finished-at="2024-12-09T18:18:11 IST" duration-ms="35510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="VerifyOnClickingShoppingCategories()[pri:0, instance:test.ShoppingCategoriesTest@2362f559]" started-at="2024-12-09T18:18:11 IST" name="VerifyOnClickingShoppingCategories" finished-at="2024-12-09T18:18:22 IST" duration-ms="10463" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a94eb30a5c701f0f61c5273a56be76b, clickElement {id=f.72426E1E05ADEBC2FA6097F704AF5AD2.d.5F8A5F97CCF2EB7C5BB772848D6ED99A.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64059/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a94eb30a5c701f0f61c5273a56be76b)] -> xpath: (//a[text()='Smartphones'])[1]]
+Session ID: 6a94eb30a5c701f0f61c5273a56be76b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.109)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a94eb30a5c701f0f61c5273a56be76b, clickElement {id=f.72426E1E05ADEBC2FA6097F704AF5AD2.d.5F8A5F97CCF2EB7C5BB772848D6ED99A.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\prati\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64059}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64059/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a94eb30a5c701f0f61c5273a56be76b)] -> xpath: (//a[text()='Smartphones'])[1]]
+Session ID: 6a94eb30a5c701f0f61c5273a56be76b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pom.ShoppingCategoiesPage.clickOnSmartPhone(ShoppingCategoiesPage.java:38)
+at test.ShoppingCategoriesTest.VerifyOnClickingShoppingCategories(ShoppingCategoriesTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOnClickingShoppingCategories -->
+      </class> <!-- test.ShoppingCategoriesTest -->
+      <class name="test.ProductSearchTest">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.ProductSearchTest@5dda768f]" started-at="2024-12-09T18:14:28 IST" name="configureReports" finished-at="2024-12-09T18:14:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.ProductSearchTest@5dda768f]" started-at="2024-12-09T18:14:28 IST" name="lunchApplication" finished-at="2024-12-09T18:14:53 IST" duration-ms="24838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="VerifyIfUserIsAbleToSearchInalidProduct()[pri:0, instance:test.ProductSearchTest@5dda768f]" started-at="2024-12-09T18:14:53 IST" name="VerifyIfUserIsAbleToSearchInalidProduct" finished-at="2024-12-09T18:15:10 IST" duration-ms="17097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToSearchInalidProduct -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.ProductSearchTest@5dda768f]" started-at="2024-12-09T18:15:10 IST" name="lunchApplication" finished-at="2024-12-09T18:15:48 IST" duration-ms="38093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="VerifyIfUserIsAbleToSearchValidProduct()[pri:0, instance:test.ProductSearchTest@5dda768f]" started-at="2024-12-09T18:15:48 IST" name="VerifyIfUserIsAbleToSearchValidProduct" finished-at="2024-12-09T18:15:58 IST" duration-ms="9741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToSearchValidProduct -->
+      </class> <!-- test.ProductSearchTest -->
+      <class name="test.AddProductToCart">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:14:05 IST" name="configureReports" finished-at="2024-12-09T18:14:06 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:18:22 IST" name="lunchApplication" finished-at="2024-12-09T18:19:40 IST" duration-ms="78164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="VerifyRemoveAproductFromCartList()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:19:40 IST" name="VerifyRemoveAproductFromCartList" finished-at="2024-12-09T18:20:19 IST" duration-ms="39683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRemoveAproductFromCartList -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:20:19 IST" name="lunchApplication" finished-at="2024-12-09T18:21:27 IST" duration-ms="67773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="verifyAddingMultipleProductToCart()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:21:27 IST" name="verifyAddingMultipleProductToCart" finished-at="2024-12-09T18:22:04 IST" duration-ms="36767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingMultipleProductToCart -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:22:04 IST" name="lunchApplication" finished-at="2024-12-09T18:24:59 IST" duration-ms="174563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="verifyAddproductToCartUsingProductDetailPage()[pri:0, instance:test.AddProductToCart@b2c9a9c]" started-at="2024-12-09T18:24:59 IST" name="verifyAddproductToCartUsingProductDetailPage" finished-at="2024-12-09T18:25:48 IST" duration-ms="49357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddproductToCartUsingProductDetailPage -->
+      </class> <!-- test.AddProductToCart -->
+      <class name="test.ProductDetailViewTest">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.ProductDetailViewTest@8297b3a]" started-at="2024-12-09T18:14:06 IST" name="configureReports" finished-at="2024-12-09T18:14:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:test.ProductDetailViewTest@8297b3a]" started-at="2024-12-09T18:14:06 IST" name="lunchApplication" finished-at="2024-12-09T18:14:28 IST" duration-ms="22257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="VerifyAddProductToCartUsingProductDetailPage()[pri:0, instance:test.ProductDetailViewTest@8297b3a]" started-at="2024-12-09T18:15:58 IST" name="VerifyAddProductToCartUsingProductDetailPage" finished-at="2024-12-09T18:17:30 IST" duration-ms="92328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddProductToCartUsingProductDetailPage -->
+        <test-method signature="VerifyIfProdutDetailsAreCorrectIfViewInQuickView()[pri:0, instance:test.ProductDetailViewTest@8297b3a]" started-at="2024-12-09T18:17:30 IST" name="VerifyIfProdutDetailsAreCorrectIfViewInQuickView" finished-at="2024-12-09T18:17:36 IST" duration-ms="5582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfProdutDetailsAreCorrectIfViewInQuickView -->
+      </class> <!-- test.ProductDetailViewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
